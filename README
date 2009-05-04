@@ -1,0 +1,4 @@
+http://code.google.com/p/appengine-jruby/wiki/GettingStarted
+
+
+jar cf ../gems.jar specifications gems
