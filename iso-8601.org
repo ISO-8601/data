@@ -1,0 +1,36 @@
+* Websites
+
+** [[http://github.com/iso-8601]] - GitHub
+** [[http://instants.iso-8601.info/]] - Tumblr Site
+** [[http://friendfeed.com/iso-8601]] - Friendfeed Room
+
+* TODO Setup a permalink referencing databank
+
+[[http://data.iso-8106.info/]]
+
+Uses [[http://aws.amazon.com/simpledb/][Amazon Simple DB]]
+
+Provides a data-store to add metadata to any URL 
+
+Stores metadata from files as XML 
+
+** Setup
+
+Git clone from Github
+
+rake gems:install
+
+Make your own config/aws_sdb_proxy.yml from config/aws_sdb_proxy.yml.sample
+
+* TODO Setup URL combination engine
+
+[[http://reference.iso-8601.info]]
+
+Provides methods of referencing data (partial file) within the file referenced by a
+URL
+
+
+
+
+* DONE Setup GitHub
+  CLOSED: [2009-05-02 Sat 11:29]
